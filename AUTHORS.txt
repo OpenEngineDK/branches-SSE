@@ -6,3 +6,4 @@ be found at http://www.openengine.dk/wiki/People
 
 If you have patches or requests in regard to the code please send your
 inquiry to bugs@openengine.dk
+
