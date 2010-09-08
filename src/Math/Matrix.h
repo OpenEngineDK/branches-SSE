@@ -15,6 +15,7 @@
 #include <boost/static_assert.hpp>
 
 #include <Math/Vector.h>
+#include <Math/SSE/FloatMatrixSpec.h>
 
 namespace OpenEngine {
 namespace Math {
@@ -224,7 +225,7 @@ public:
     /**
      * Destructive matrix addition.
      */
-    const void operator+=(Matrix<M,N,T> m) {
+    void operator+=(Matrix<M,N,T> m) {
         for (unsigned int i=0; i<M; i++) 
             for (unsigned int j=0; j<M; j++) {
                 elm[i][j] += m[i][j];

@@ -1,3 +1,7 @@
+SUBDIRS(
+  SSE
+)
+
 ADD_LIBRARY(OpenEngine_Math
   Math.h
   Math.cpp
@@ -8,8 +12,8 @@ ADD_LIBRARY(OpenEngine_Math
   RandomGenerator.h
   RandomGenerator.cpp
   Vector.h
-#  VectorList.h
-#  VectorIterator.h
+  VectorList.h
+  VectorIterator.h
   Tensor.h
 )
 
