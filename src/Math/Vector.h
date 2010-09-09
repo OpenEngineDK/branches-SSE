@@ -555,4 +555,7 @@ std::ostream& operator<<(std::ostream& os, const Vector<N,T> e) {
 }  // NS OpenEngine
 }  // NS Math
 
+//Template specialization
+//#include <Math/SSE/FloatVector.h>
+
 #endif // _OE_VECTOR_H_

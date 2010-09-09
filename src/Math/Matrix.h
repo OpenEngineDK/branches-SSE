@@ -15,7 +15,6 @@
 #include <boost/static_assert.hpp>
 
 #include <Math/Vector.h>
-#include <Math/SSE/FloatMatrixSpec.h>
 
 namespace OpenEngine {
 namespace Math {
@@ -502,5 +501,8 @@ std::ostream& operator<<(std::ostream& os, const Matrix<M,N,T> e) {
 
 }  // NS OpenEngine
 }  // NS Math
+
+//Template specialization
+#include <Math/SSE/FloatMatrix.h>
 
 #endif // _OE_MATRIX_H_
