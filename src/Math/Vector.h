@@ -556,6 +556,6 @@ std::ostream& operator<<(std::ostream& os, const Vector<N,T> e) {
 }  // NS Math
 
 //Template specialization
-//#include <Math/SSE/FloatVector.h>
+#include <Math/SSE/FloatVector.h>
 
 #endif // _OE_VECTOR_H_
