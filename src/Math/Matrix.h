@@ -503,6 +503,6 @@ std::ostream& operator<<(std::ostream& os, const Matrix<M,N,T> e) {
 }  // NS Math
 
 //Template specialization
-#include <Math/SSE/FloatMatrix.h>
+#include <Math/SSE/Matrix44.h>
 
 #endif // _OE_MATRIX_H_
